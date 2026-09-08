@@ -1,0 +1,4 @@
+hello world
+this is a debugging test
+file operations can fail
+python is powerful
