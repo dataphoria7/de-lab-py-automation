@@ -1,0 +1,4 @@
+timestamp,level,user,ip,action
+2026-09-07 10:01:22,INFO,byron,192.168.1.10,page_view
+2026-09-07 10:02:11,ERROR,esther,10.0.0.5,login_failed
+2026-09-07 10:03:45,WARNING,luisito,172.16.0.3,password_attempt

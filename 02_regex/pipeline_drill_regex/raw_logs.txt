@@ -1,0 +1,3 @@
+[2026-09-07 10:01:22] INFO User: Byron IP: 192.168.1.10 Action: page_view								
+[2026-09-07 10:02:11] ERROR User: Esther IP: 10.0.0.5 Action: login_failed								
+[2026-09-07 10:03:45] WARNING User: Luisito IP: 172.16.0.3 Action: password_attempt								

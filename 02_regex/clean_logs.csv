@@ -1,0 +1,5 @@
+timestamp,level,user,ip,action
+2026-09-06 12:45:33,ERROR,looka,192.168.0.12,login_failed
+2026-09-06 12:46:01,INFO,esther,10.0.0.5,page_view
+2026-09-06 12:47:10,WARNING,byron,172.16.0.3,password_attempt
+2026-09-06 12:48:55,ERROR,looka,192.168.0.12,login_failed

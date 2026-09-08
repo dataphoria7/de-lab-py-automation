@@ -1,0 +1,4 @@
+[2026-09-06 12:45:33] ERROR User: looka IP: 192.168.0.12 Action: login_failed
+[2026-09-06 12:46:01] INFO User: esther IP: 10.0.0.5 Action: page_view
+[2026-09-06 12:47:10] WARNING User: byron IP: 172.16.0.3 Action: password_attempt
+[2026-09-06 12:48:55] ERROR User: looka IP: 192.168.0.12 Action: login_failed
