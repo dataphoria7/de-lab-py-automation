@@ -1,0 +1,5 @@
+2026-09-08 15:41:31,602 - INFO - Starting debugging pipeline drill.
+2026-09-08 15:41:31,603 - ERROR - Attempted division by zero
+2026-09-08 15:41:31,603 - WARNING - Assertion triggered: Math assertion failed
+2026-09-08 15:41:31,605 - INFO - Clean output written successfully.
+2026-09-08 15:41:31,605 - INFO - Pipeline drill complete.
