@@ -1,7 +1,3 @@
 # de-lab-py-automation
 
-Python automation lab for data engineering fundamentals:
-- file manipulation
-- regex parsing
-- log processing
-- modular pipeline drills
+Hands-on Python automation projects covering file manipulation, regex, debugging, Excel automation, JSON processing, threading, scheduling, email automation, and GUI automation. Built as part of my Data Engineer Academy training. 
