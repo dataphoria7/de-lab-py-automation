@@ -1,0 +1,22 @@
+[
+    {
+        "month": "JAN",
+        "sales": 12000,
+        "region": "WEST"
+    },
+    {
+        "month": "FEB",
+        "sales": 15000,
+        "region": "EAST"
+    },
+    {
+        "month": "MAR",
+        "sales": 18000,
+        "region": "SOUTH"
+    },
+    {
+        "month": "APR",
+        "sales": 21000,
+        "region": "NORTH"
+    }
+]
