@@ -15,12 +15,12 @@ def backup_job():
     backup_folder = os.path.join(DEST_DIR, f"backup_{timestamp}")
     os.makedirs(backup_folder, exist_ok=True)
 
-''' 
-aaaaaaaThe next loop walks through every file in the source folder, 
-builds the full path to each file, 
-builds the full path to where the file should go, and copies it.
-That’s the whole truth.
-'''
+    """
+    The next loop walks through every file in the source folder,
+    builds the full path to each file,
+    builds the full path to where the file should go,
+    and copies it.
+    """
 
     for filename in os.listdir(SOURCE_DIR):
         src_path = os.path.join(SOURCE_DIR, filename)
@@ -29,11 +29,13 @@ That’s the whole truth.
 
     print(f"Backup completed at {timestamp}")
 
+
 def threaded_backup_job():
     thread = threading.Thread(target=backup_job)
-    thread.start()    
+    thread.start()
 
-schedule.every(10).seconds.do(backup_job)
+
+schedule.every(10).seconds.do(threaded_backup_job)
 
 while True:
     schedule.run_pending()
