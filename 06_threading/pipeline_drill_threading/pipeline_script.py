@@ -15,6 +15,13 @@ def backup_job():
     backup_folder = os.path.join(DEST_DIR, f"backup_{timestamp}")
     os.makedirs(backup_folder, exist_ok=True)
 
+''' 
+aaaaaaaThe next loop walks through every file in the source folder, 
+builds the full path to each file, 
+builds the full path to where the file should go, and copies it.
+That’s the whole truth.
+'''
+
     for filename in os.listdir(SOURCE_DIR):
         src_path = os.path.join(SOURCE_DIR, filename)
         dst_path = os.path.join(backup_folder, filename)
